@@ -1,4 +1,4 @@
-// Global variable declarations
+// Global variables
 var cityList = [];
 var cityname;
 
@@ -32,7 +32,7 @@ function initCityList() {
     renderCities();
     }
 
-// This function pull the current city into local storage to display the current weather forecast on reload
+// This function pulls the current city into local storage to display the current weather when re loaded
 function initWeather() {
     var storedWeather = JSON.parse(localStorage.getItem("currentCity"));
 
